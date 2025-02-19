@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="secundary">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Catalogo botoes</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <h1>Botões e cursores</h1>
+      <p>observe a mudança de aparência dos botões e dos cursores</p>
+      <div id="botons">
+        <button class="primary loading">
+          <i class="ph ph-circle-notch"></i>
+          loading
+        </button>
+        <button class="secundary movable">Tema escuro</button>
+        <button class="secundary" disabled>indisponivel</button>
+        <button class="tertiary">
+          <i class="ph ph-list"></i>
+          lista
+        </button>
+      </div>
+      <h6>
+        obs: os botões são apenas para exemplo portanto não estão funcionais!
+      </h6>
+    </div>
+  </body>
 </html>
